@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin-ext" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <div class="logo">
+                <img src="../assets/unknown (1).png" alt="" height="125px">
+            </div>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="navbarchild">
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            <div class="dropdown">
+                <p>Category</p>
+                <div class="dropdown-content">
+                    <a href="Men.html">Men</a>
+                    <a href="Women.html">Women</a>
+                </div>
+            </div>
+            <a href="AboutUs.html">
+                <p>About Us</p>
+            </a>
+            <a href="Register.html" class="currentpage">
+                <p>Register</p>
+            </a>
+            <img src="../assets/Cart.png" alt="" height="35px">
+        </div>
+    </div>
+    <form action="index.html" onsubmit="validateForm(event)">
+    <div class="container">
+        <div class="container-child">
+            <div class="register">
+                Register
+            </div>
+                <hr>
+                <label for="Email">Email</label>
+                <!-- <br> -->
+                <input type="email" placeholder="Enter Your Email" id="Email" autofocus required>
+                <br>
+                <label for="Password">Password</label>
+                <!-- <br> -->
+                <input type="password" placeholder="Enter Your Password" id="Password"required>
+                <br>
+                <label for="CPassword">Confirm Password</label>
+                <!-- <br> -->
+                <input type="password" placeholder="Confirm Your Password" id="CPassword"required>
+                <br> 
+                <label for="Address">Address</label>
+                <!-- <br> -->
+                <input type="text" placeholder="Enter Your Address" id="Address"required>
+                <br>
+                <label for="DOB">Date Of Birth</label>
+                <br>
+                <input type="date" id="DOB"required>
+                <br>
+                <label for="Gender">Gender</label>
+                <div class="gender">
+                    <input type="radio" name="gender" class="gender" value="Male" id="Male"><label for="Male">Male</label><br>
+                    <input type="radio" name="gender" class="gender" value="Female" id="Female"><label for="Female">Female</label><br>
+                </div>
+                <br>
+                <div class="agree">
+                    <input type="checkbox" name="agree" id="Agree"required>
+                    <label for="Agree">
+                        I Agree to the Terms and Conditions
+                    </label>
+                </div>
+                <button type="submit" class="register-button">Register</button>
+            </div>
+        </div>
+    </form>
+    <script src="../JavaScript/script.js"></script>
+    <div class="footer">
+        <div class="logo2">
+            <img src="../assets/unknown (1).png" alt="" height="50px">
+        </div>
+        <div class="footersosmed">
+            Follow us on Social Media
+        </div>
+        <div class="footerchild">
+            <div class="sosmed">
+                <a href="https://www.instagram.com/officialrickastley/">
+                    <img src="../assets/IG.png" alt="" height="20px">
+                </a>
+                <a href="https://www.facebook.com/RickAstley/">
+                    <img src="../assets/FB.png" alt="" height="20px">
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img src="../assets/YT.png" alt="" height="20px">
+                </a>
+                <a href="https://twitter.com/rickastley?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="../assets/twitter.png" alt="" height="20px">
+                </a>
+            </div>
+
+        </div>
+        <div class="footertext">
+            We accept any method of payment <br> <br>
+            © Bulan 2020
+        </div>
+    </div>
+<script src="../JavaScript/script.js"></script>
+</body>
+</html>
